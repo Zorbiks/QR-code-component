@@ -1,0 +1,31 @@
+:root {
+	--slate-300: hsl(212, 45%, 89%);
+	--slate-500: hsl(216, 15%, 48%);
+	--slate-900: hsl(218, 44%, 22%);
+}
+.clr-slate-300 {
+	color: var(--slate-300);
+}
+.clr-slate-500 {
+	color: var(--slate-500);
+}
+.clr-slate-900 {
+	color: var(--slate-900);
+}
+body {
+	font-family: Outfit, sans-serif;
+	background-color: var(--slate-300);
+}
+.card {
+	width: 324px;
+	box-shadow: 0 10px 16px rgba(0, 0, 0, .05);
+}
+.card .card-title {
+	font-size: 22px;
+	line-height: 1.2;
+}
+.card .card-text {
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: .2px;
+}
